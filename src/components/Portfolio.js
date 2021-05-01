@@ -19,6 +19,8 @@ const Pofrfolio = () => {
       <>
         <img className="portfolio-image-popupbox" src={foods} alt="Kent's Food Store" />
         <p>A platform where users can buy their meals online</p>
+        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://kent-foods.herokuapp.com/", "_blank")}>https://kent-foods.herokuapp.com/</a>
+        <br />
         <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/kbaraa/Food")}>https://github.com/kbaraa/Food</a>
       </>
     )
@@ -40,7 +42,7 @@ const Pofrfolio = () => {
       <>
         <img className="portfolio-image-popupbox" src={quotes} alt="Quotes" />
         <p>A site where people can upload funny and inspiring quotes and lessons.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://city-guide-app-project.herokuapp.com/", "_blank")}>https://city-guide-app-project.herokuapp.com/</a>
+        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://quotes-kent.herokuapp.com/quotes", "_blank")}>https://quotes-kent.herokuapp.com/quotes</a>
         <br />
         <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/kbaraa/Quote", "_blank")}>https://github.com/kbaraa/Quote</a>
       </>
@@ -63,7 +65,7 @@ const Pofrfolio = () => {
       <>
         <img className="portfolio-image-popupbox" src={todo} alt="Todo Project" />
         <p>A visually appealing todo list</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://portfolio-rea-and-material-ui.herokuapp.com/", "_blank")}>https://portfolio-rea-and-material-ui.herokuapp.com/</a>
+        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://todolist-kent.herokuapp.com/", "_blank")}>https://todolist-kent.herokuapp.com/</a>
         <br />
         <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/kbaraa/todoList", "_blank")}>https://github.com/kbaraa/todoList</a>
       </>
