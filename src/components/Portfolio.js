@@ -1,7 +1,7 @@
 import React from "react";
 import foods from "../images/foods.png";
-import quotes from "../images/quotes.png";
-import todo from "../images/todo.png";
+import cookies from "../images/cookies.png";
+import messenger from "../images/messenger.png";
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
@@ -36,47 +36,47 @@ const Pofrfolio = () => {
     fadeInSpeed: 500
   }
 
-  // Quotes
-  const openPopupboxQuotes = () => {
+  // cookies
+  const openPopupboxcookies = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={quotes} alt="Quotes" />
-        <p>A site where people can upload funny and inspiring quotes and lessons.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://quotes-kent.herokuapp.com/quotes", "_blank")}>https://quotes-kent.herokuapp.com/quotes</a>
+        <img className="portfolio-image-popupbox" src={cookies} alt="cookies" />
+        <p>A site where people can track their accomplishments and failures (David Goggins Cookie Jar Method)</p>
+        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://cookies-kent.herokuapp.com/cookies", "_blank")}>https://cookies-kent.herokuapp.com/cookies</a>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/kbaraa/Quote", "_blank")}>https://github.com/kbaraa/Quote</a>
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/kbaraa/cookie", "_blank")}>https://github.com/kbaraa/cookie</a>
       </>
     )
     PopupboxManager.open({ content })
   }
 
-  const popupboxConfigQuotes = {
+  const popupboxConfigcookies = {
     titleBar: {
       enable: true,
-      text: "Quotes Project."
+      text: "David Goggin Cookie Project."
     },
     fadeIn: true,
     fadeInSpeed: 500
   }
 
-  // Todo 
-  const openPopupboxTodo = () => {
+  // messenger 
+  const openPopupboxmessenger = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={todo} alt="Todo Project" />
-        <p>A visually appealing todo list</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://todolist-kent.herokuapp.com/", "_blank")}>https://todolist-kent.herokuapp.com/</a>
+        <img className="portfolio-image-popupbox" src={messenger} alt="messenger Project" />
+        <p>Work in Progress Group Work - An Analog Messaging System</p>
+        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://messengerlist-kent.herokuapp.com/", "_blank")}>https://messengerlist-kent.herokuapp.com/</a>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/kbaraa/todoList", "_blank")}>https://github.com/kbaraa/todoList</a>
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/kbaraa/messengerList", "_blank")}>https://github.com/kbaraa/messengerList</a>
       </>
     )
     PopupboxManager.open({ content })
   }
 
-  const popupboxConfigTodo = {
+  const popupboxConfigmessenger = {
     titleBar: {
       enable: true,
-      text: "Todo List Project"
+      text: "Messenger List Project"
     },
     fadeIn: true,
     fadeInSpeed: 500
@@ -96,14 +96,14 @@ const Pofrfolio = () => {
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
-          <div className="portfolio-image-box" onClick={openPopupboxQuotes}>
-            <img className="portfolio-image" src={quotes} alt="Quotes" />
+          <div className="portfolio-image-box" onClick={openPopupboxcookies}>
+            <img className="portfolio-image" src={cookies} alt="cookies" />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
-          <div className="portfolio-image-box" onClick={openPopupboxTodo}>
-            <img className="portfolio-image" src={todo} alt="Todo List" />
+          <div className="portfolio-image-box" onClick={openPopupboxmessenger}>
+            <img className="portfolio-image" src={messenger} alt="messenger List" />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
@@ -111,8 +111,8 @@ const Pofrfolio = () => {
         </div>
       </div>
       <PopupboxContainer {...popupboxConfigFood} />
-      <PopupboxContainer {...popupboxConfigQuotes} />
-      <PopupboxContainer {...popupboxConfigTodo} />
+      <PopupboxContainer {...popupboxConfigcookies} />
+      <PopupboxContainer {...popupboxConfigmessenger} />
     
     </div>
   )
