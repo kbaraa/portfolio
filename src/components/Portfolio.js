@@ -19,9 +19,9 @@ const Pofrfolio = () => {
       <>
         <img className="portfolio-image-popupbox" src={foods} alt="Kent's Food Store" />
         <p>A platform where users can buy their meals online</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://kent-foods.herokuapp.com/", "_blank")}>https://kent-foods.herokuapp.com/</a>
-        <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/kbaraa/Food")}>https://github.com/kbaraa/Food</a>
+        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://restuarant-kent.herokuapp.com/", "_blank")}>https://restuarant-kent.herokuapp.com/</a>
+        {/* <br />
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/kbaraa/Food")}>https://github.com/kbaraa/Food</a> */}
       </>
     )
     PopupboxManager.open({ content })
@@ -41,10 +41,10 @@ const Pofrfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={cookies} alt="cookies" />
-        <p>A site where people can track their accomplishments and failures (David Goggins Cookie Jar Method)</p>
+        <p>A site where people can track their accomplishments and failures (David Goggins Cookie Jar Method)(Being Revised due to npmjs error)</p>
         <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://cookies-kent.herokuapp.com/cookies", "_blank")}>https://cookies-kent.herokuapp.com/cookies</a>
-        <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/kbaraa/cookie", "_blank")}>https://github.com/kbaraa/cookie</a>
+        {/* <br />
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/kbaraa/cookie", "_blank")}>https://github.com/kbaraa/cookie</a> */}
       </>
     )
     PopupboxManager.open({ content })
@@ -64,10 +64,10 @@ const Pofrfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={messenger} alt="messenger Project" />
-        <p>Work in Progress Group Work - An Analog Messaging System</p>
+        <p>Work in Progress Group Work - An Analog Messaging System (Revised every Monday and Thursday)</p>
         <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://messengerlist-kent.herokuapp.com/", "_blank")}>https://messengerlist-kent.herokuapp.com/</a>
-        <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/kbaraa/messengerList", "_blank")}>https://github.com/kbaraa/messengerList</a>
+        {/* <br />
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/leochoo/analog-messenger", "_blank")}>https://github.com/leochoo/analog-messenger</a> */}
       </>
     )
     PopupboxManager.open({ content })

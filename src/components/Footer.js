@@ -44,42 +44,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
-            <div className="d-flex justify-content-center">
-              <FacebookShareButton
-                url={"https://github.com/kbaraa"}
-                cookie={"Front End Web Developer"}
-                hashtag="#javascript"
-              >
-                <FacebookIcon className="mx-3" size={36} />
-              </FacebookShareButton>
-              <TwitterShareButton
-                url={"https://github.com/kbaraa"}
-                cookie={"Front End Web Developer"}
-                hashtag="#javascript"
-              >
-                <TwitterIcon className="mx-3" size={36} />
-              </TwitterShareButton>
-              <RedditShareButton
-                url={"https://github.com/kbaraa"}
-                cookie={"Front End Web Developer"}
-                hashtag="#javascript"
-              >
-                <RedditIcon className="mx-3" size={36} />
-              </RedditShareButton>
-              <LinkedinShareButton
-                url={"https://github.com/kbaraa"}
-                cookie={"Front End Web Developer"}
-                hashtag="#javascript"
-              >
-                <LinkedinIcon className="mx-3" size={36} />
-              </LinkedinShareButton>
-            </div>
-            <p className="pt-3 text-center">
-              Copyright&copy;
-              {new Date().getFullYear()}&nbsp;Kent Bara | All Rights Reserved
-            </p>
-          </div>
+          
         </div>
       </div>
     </div>

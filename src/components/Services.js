@@ -13,7 +13,7 @@ const Services = () => {
             <div className="box">
               <div className="circle"><FontAwesomeIcon className="icon" icon={faDesktop} size="2x" /></div>
               <h3>Web Design</h3>
-              <p>knowledgable of how to style websites that is appealing</p>
+              <p>Knowledgable of how to style websites that is appealing</p>
             </div>
           </div>
           {/* - */}
